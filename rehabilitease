@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rehabilit-Ease - Physiotherapy Home Visits</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1, h2 {
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .cta-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #45a049;
+    }
+    section {
+      margin: 20px 0;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .services-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .service-box {
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .service-box h3 {
+      color: #4CAF50;
+    }
+    .service-box p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Rehabilit-Ease</h1>
+    <p>Professional physiotherapy care at your doorstep</p>
+  </header>
+
+  <div class="container">
+    <!-- Home Section -->
+    <section>
+      <h2>Welcome to Rehabilit-Ease</h2>
+      <p>We specialize in post-surgery rehabilitation, elderly care, pain management, and more. Get personalized care in the comfort of your home in Kengeri Satellite Town, Bangalore University, and surrounding areas.</p>
+      <a href="https://wa.me/9483216184" class="cta-button">Book a Home Visit Now</a>
+    </section>
+
+    <!-- Services Section -->
+    <section>
+      <h2>Our Services</h2>
+      <div class="services-list">
+        <div class="service-box">
+          <h3>Post-Surgery Rehabilitation</h3>
+          <p>Customized rehabilitation plans to help you recover faster and stronger after surgery.</p>
+        </div>
+        <div class="service-box">
+          <h3>Elderly Care Physiotherapy</h3>
+          <p>Improving strength, mobility, and quality of life for seniors in the comfort of their home.</p>
+        </div>
+        <div class="service-box">
+          <h3>Pain Management</h3>
+          <p>Effective solutions for chronic pain, including manual therapy and exercises to relieve discomfort.</p>
+        </div>
+        <div class="service-box">
+          <h3>Sports Injury Rehabilitation</h3>
+          <p>Recover from sports injuries with a rehabilitation plan designed to restore function and prevent re-injury.</p>
+        </div>
+        <div class="service-box">
+          <h3>Postural Correction</h3>
+          <p>Correct your posture and improve mobility with exercises that relieve strain and improve daily movement.</p>
+        </div>
+        <div class="service-box">
+          <h3>Pre/Postnatal Physiotherapy</h3>
+          <p>Supporting women before and after childbirth to maintain health and aid recovery with tailored exercises.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+      <h2>Contact Us</h2>
+      <p>Phone: <a href="tel:9483216184">9483216184</a></p>
+      <p>WhatsApp: <a href="https://wa.me/9483216184">Send a Message</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Rehabilit-Ease | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
